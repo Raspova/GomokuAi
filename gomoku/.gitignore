@@ -1,0 +1,13 @@
+a.out
+*.o
+#*#
+*~
+.vscode*
+vgcore*
+*.gc*
+binary_name_HERE
+my_hunter
+cmake_install.cmake
+CMakeFiles
+CMakeCache.txt
+pbrain-gomoku-ai
