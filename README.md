@@ -1,15 +1,20 @@
 ![LOGO](asset/readme/banner.png)
 # Intro
 
-Started as an Epitech project, here is my implementation of an Ai playing gomoku.
-There are two version one with a graphical interface, one complient with the subjet protocol find [**here**](https://svn.code.sf.net/p/piskvork/code/trunk/source/doc/protocl2en.htm "Piskvork Protocol").
+
+Started as an Epitech project, here is my implementation of an AI playing Gomoku.
+There are two versions: one with a graphical interface and one compliant with the subjet protocol found [**here**](https://svn.code.sf.net/p/piskvork/code/trunk/source/doc/protocl2en.htm "Piskvork Protocol").
+
 ![ScreanShot](asset/readme/screenShot.png)
+
 ## Gomoku game
 Players alternate turns placing a stone of their color on an empty intersection. Black plays first. The winner is the first player to form an unbroken chain of five stones horizontally, vertically, or diagonally. 
 
 # Usage and install
 ## Graphical 
-The make file for the graphical version is a the root (need the SFML library) :
+
+The make file for the graphical version is at the root (need the SFML library):
+
 ```
 make 
 ./gomoku-ai-graph
